@@ -8,10 +8,13 @@ import java.util.List;
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
-	private Frame bonus = new Frame(0,0);
-	private int finalScore = 0;
+	private Frame bonus;
+	private int finalScore;
 	
-	public BowlingGame(){}
+	public BowlingGame() throws BowlingException{
+		bonus = new Frame(0,0);
+		finalScore = 0;
+	}
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame) throws BowlingException{
