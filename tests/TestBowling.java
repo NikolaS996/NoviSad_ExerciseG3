@@ -95,6 +95,8 @@ public class TestBowling {
 		
 		int score = 32;
 		
+		assertEquals(score, game.score());
+		
 		
 	}
 	
