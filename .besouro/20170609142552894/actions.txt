@@ -215,3 +215,5 @@ UnitTestCaseAction 1497014630075 TestBowling.java FAIL
 UnitTestSessionAction 1497014630091 TestBowling.java FAIL
 RefactoringAction 1497014789914 TestBowling.java RENAME test_game_score()=>void test_game_score_with_spare() METHOD
 EditAction 1497014790148 TestBowling.java 2231 10 35 6
+RefactoringAction 1497014799054 TestBowling.java ADD void test_game_score_with_spare()/2 METHOD
+EditAction 1497014803273 TestBowling.java 2503 11 40 7
