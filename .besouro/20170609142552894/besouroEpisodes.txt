@@ -19,3 +19,16 @@
 1497011519364 test-addition 1 35 true
 1497011519365 test-addition 1 35 true
 1497011519366 test-addition 1 35 true
+1497011564182 refactoring 3 38 true
+1497011564183 refactoring 3 38 true
+1497011564184 refactoring 3 38 true
+1497011564185 refactoring 3 38 true
+1497011564186 refactoring 3 38 true
+1497011564187 refactoring 3 38 true
+1497011564188 refactoring 1A 38 true
+1497011564189 refactoring 3 38 true
+1497011564190 refactoring 3 38 true
+1497011564191 refactoring 3 38 true
+1497011564192 refactoring 3 38 true
+1497011564193 refactoring 3 38 true
+1497011564194 refactoring 3 38 true
