@@ -188,3 +188,14 @@ CompilationAction 1497014163986 TestBowling.java
 CompilationAction 1497014204471 TestBowling.java
 EditAction 1497014227549 TestBowling.java 2178 10 34 5
 EditAction 1497014238220 TestBowling.java 2220 10 35 6
+UnitTestCaseAction 1497014244217 TestBowling.java FAIL
+UnitTestSessionAction 1497014244217 TestBowling.java FAIL
+RefactoringAction 1497014277330 BowlingGame.java ADD int finalScorep FIELD
+CompilationAction 1497014278111 BowlingGame.java
+CompilationAction 1497014280580 BowlingGame.java
+CompilationAction 1497014280736 BowlingGame.java
+CompilationAction 1497014311659 BowlingGame.java
+CompilationAction 1497014311831 BowlingGame.java
+CompilationAction 1497014374801 BowlingGame.java
+CompilationAction 1497014374973 BowlingGame.java
+EditAction 1497014385426 BowlingGame.java 1320 6 7 0
