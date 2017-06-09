@@ -27,4 +27,12 @@ public class BowlingGame {
 		//to be implemented: should return game score 
 		return 0;
 	}
+
+	public Frame getBonus() {
+		return bonus;
+	}
+
+	public void setBonus(Frame bonus) {
+		this.bonus = bonus;
+	}
 }

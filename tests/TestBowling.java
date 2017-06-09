@@ -76,7 +76,7 @@ public class TestBowling {
 		
 		int bonus = 15;
 		
-		assertEquals(bonus, game.bonus);
+		assertEquals(bonus, game.getBonus());
 		
 		
 	}
