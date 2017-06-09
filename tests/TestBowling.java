@@ -53,12 +53,18 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_score() throws BowlingException{
+	public void test_score_valid() throws BowlingException{
 		Frame frame = new Frame(5, 3);
 		
 		int score = 8;
 		
 		assertEquals(score, frame.score());
+	}
+	
+	@Test
+	public void test_score_invalid() throws BowlingException{
+		Frame frame = new Frame(5, 6);
+		
 	}
 
 }
