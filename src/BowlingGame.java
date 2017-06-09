@@ -20,7 +20,7 @@ public class BowlingGame {
 	public void addFrame(Frame frame) throws BowlingException{
 		if(frames.size() == 10 && (frame.isSpare() || frame.isStrike())
 			frames.add(frame);
-		else if(frames.size < 10)
+		else if(frames.size() < 10)
 			frames.add(frame);
 		else
 			throw new BowlingException();
