@@ -28,7 +28,7 @@ public class BowlingGame {
 	}
 	
 	// Returns the game score
-	public int score() throws BowlingException{
+	public int score() {
 		Frame tmp = new Frame(0,0);
 		for(Frame frame : frames){
 			
