@@ -37,3 +37,5 @@ UnitTestCaseAction 1497011608345 TestBowling.java OK
 UnitTestSessionAction 1497011608347 TestBowling.java OK
 EditAction 1497011639145 Frame.java 813 6 8 0
 EditAction 1497011652806 Frame.java 811 6 8 0
+RefactoringAction 1497011665173 BowlingException.java ADD BowlingException() METHOD
+EditAction 1497011668030 BowlingException.java 101 1 1 0
