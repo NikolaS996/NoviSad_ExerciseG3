@@ -48,3 +48,11 @@ UnitTestCaseAction 1497011726343 TestBowling.java FAIL
 UnitTestSessionAction 1497011726345 TestBowling.java FAIL
 EditAction 1497011751849 Frame.java 844 6 10 0
 EditAction 1497011797125 Frame.java 919 6 11 0
+CompilationAction 1497011799118 Frame.java
+FileOpenedAction 1497011805041 Test.java 28 0 0 0
+CompilationAction 1497011816856 Frame.java
+UnitTestCaseAction 1497011824709 TestBowling.java OK
+UnitTestSessionAction 1497011824711 TestBowling.java OK
+RefactoringAction 1497011830025 TestBowling.java ADD void test_strike_true()/2 METHOD
+RefactoringAction 1497011834036 TestBowling.java RENAME test_strike_true()/2=>void test_strike_false() METHOD
+EditAction 1497011845401 TestBowling.java 934 5 13 4

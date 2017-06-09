@@ -1,5 +1,6 @@
-1497011479171 refactoring 3 325 false
-1497011519364 test-addition 1 40 false
-1497011564182 refactoring 3 44 false
-1497011608347 refactoring 2A 44 false
-1497011675103 production 2 66 false
+1497011479171 refactoring 3 325 true
+1497011519364 test-addition 1 40 true
+1497011564182 refactoring 3 44 true
+1497011608347 refactoring 2A 44 true
+1497011675103 production 2 66 true
+1497011824711 test-first 3 149 true
