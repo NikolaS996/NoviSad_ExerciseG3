@@ -30,13 +30,15 @@ public class BowlingGame {
 	// Returns the game score
 	public int score() throws BowlingException{
 		for(Frame frame : frames){
-			Frame temp = new Frame(0,0);
-			temp = frame;
+			
+			Frame tmp = new Frame(0,0);
+			tmp = frame;
+			
 			finalScore = finalScore + frame.score();
 			
-			if(temp.isStrike())
+			if(tmp.isStrike())
 				this.setBonus(frame.getFirstThrow(),frame.getSecondThrow());
-			else if(temp.isSpare())
+			else if(tmp.isSpare())
 				this.setBonus(frame.getFirstThrow(), 0);
 			
 			finalScore = finalScore + bonus.score();
