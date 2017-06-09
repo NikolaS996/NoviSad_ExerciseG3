@@ -53,7 +53,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_initial_score() throws BowlingException{
+	public void test_score() throws BowlingException{
 		Frame frame = new Frame(5, 3);
 		
 		int score = 8;
