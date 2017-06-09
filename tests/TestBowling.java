@@ -10,7 +10,7 @@ public class TestBowling {
 		
 		boolean result = true;
 		
-		asserEquals(result, frame.isSpare());
+		assertEquals(result, frame.isSpare());
 	}
 
 }
