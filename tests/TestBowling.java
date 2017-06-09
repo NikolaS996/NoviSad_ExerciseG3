@@ -136,25 +136,21 @@ public class TestBowling {
 	}
 	
 	@Test(expected = BowlingException.class)
-	public void test_third_frame_if_stirke() throws BowlingException{
+	public void test_third_frame_if_not_available() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		
-		game.addFrame(new Frame(10, 0));//17
-		game.addFrame(new Frame(5, 2)); //7
-		game.addFrame(new Frame(10, 0));//17
-		game.addFrame(new Frame(5, 2));	//7
-		game.addFrame(new Frame(10, 0));//17
-		game.addFrame(new Frame(5, 2)); //7
-		game.addFrame(new Frame(10, 0));//17
-		game.addFrame(new Frame(5, 2)); //7
-		game.addFrame(new Frame(5, 3)); //8
-		game.addFrame(new Frame(7, 3)); //14
-		game.addFrame(new Frame(4, 2)); //8 
-		
-		int score = 116;
-		
-		assertEquals(score, game.score());
+		game.addFrame(new Frame(10, 0));
+		game.addFrame(new Frame(5, 2));
+		game.addFrame(new Frame(10, 0));
+		game.addFrame(new Frame(5, 2));
+		game.addFrame(new Frame(10, 0));
+		game.addFrame(new Frame(5, 2));
+		game.addFrame(new Frame(10, 0));
+		game.addFrame(new Frame(5, 2));
+		game.addFrame(new Frame(5, 3));
+		game.addFrame(new Frame(7, 2)); 
+		game.addFrame(new Frame(4, 2)); 
 	
-		
+	}
 
 }
