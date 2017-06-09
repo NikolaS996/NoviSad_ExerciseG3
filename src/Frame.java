@@ -21,9 +21,6 @@ public class Frame {
 		
 		score = firstThrow + secondThrow;
 		
-		if(score > 10)
-			throw new BowlingException();
-		
 		return score;
 	}
 
