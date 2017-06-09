@@ -124,3 +124,10 @@ RefactoringAction 1497012552432 TestBowling.java ADD void test_ FIELD
 RefactoringAction 1497012576969 TestBowling.java RENAME test_=>void test_bonus FIELD
 RefactoringAction 1497012579482 TestBowling.java RENAME test_bonus=>void test_bonus() METHOD
 EditAction 1497012605818 TestBowling.java 1411 9 19 5
+CompilationAction 1497012711054 TestBowling.java
+CompilationAction 1497012711055 TestBowling.java
+CompilationAction 1497012723907 TestBowling.java
+CompilationAction 1497012723909 TestBowling.java
+CompilationAction 1497012724129 TestBowling.java
+CompilationAction 1497012737101 TestBowling.java
+EditAction 1497012833980 TestBowling.java 1516 9 21 5

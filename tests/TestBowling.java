@@ -68,10 +68,15 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_bonus(){
+	public void test_bonus() throws BowlingException{
 		BowlingGame game = new BowlingGame();
+		
+		game.addFrame(new Frame (5,5));
+		game.addFrame(new Frame (5,4));
 		
 		
 	}
+	
+		
 
 }
