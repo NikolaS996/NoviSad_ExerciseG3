@@ -93,7 +93,7 @@ public class TestBowling {
 		game.addFrame(new Frame(6, 4));
 		game.addFrame(new Frame(5, 2));
 		
-		int score = 32;
+		int score = 22;
 		
 		assertEquals(score, game.score());
 		
@@ -104,10 +104,10 @@ public class TestBowling {
 	public void test_game_score_with_strike() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		
-		game.addFrame(new Frame(6, 4));
+		game.addFrame(new Frame(10, 0));
 		game.addFrame(new Frame(5, 2));
 		
-		int score = 32;
+		int score = 1;
 		
 		assertEquals(score, game.score());
 		

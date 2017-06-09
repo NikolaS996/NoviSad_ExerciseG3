@@ -217,3 +217,4 @@ RefactoringAction 1497014789914 TestBowling.java RENAME test_game_score()=>void 
 EditAction 1497014790148 TestBowling.java 2231 10 35 6
 RefactoringAction 1497014799054 TestBowling.java ADD void test_game_score_with_spare()/2 METHOD
 EditAction 1497014803273 TestBowling.java 2503 11 40 7
+EditAction 1497014862413 TestBowling.java 2503 11 40 7
