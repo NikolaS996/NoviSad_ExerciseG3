@@ -28,7 +28,7 @@ public class BowlingGame {
 	}
 	
 	// Returns the game score
-	public int score(){
+	public int score() throws BowlingException{
 		for(Frame frame : frames){
 			Frame temp = new Frame(0,0);
 			temp = frame;
@@ -42,7 +42,7 @@ public class BowlingGame {
 			finalScore = finalScore + bonus.score();
 			this.setBonus(0, 0);
 		}
-		return 0;
+		return finalScore;
 	}
 
 	public Frame getBonus() {
