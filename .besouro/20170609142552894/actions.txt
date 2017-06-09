@@ -139,3 +139,6 @@ UnitTestCaseAction 1497012957027 TestBowling.java FAIL
 UnitTestSessionAction 1497012957029 TestBowling.java FAIL
 EditAction 1497013029500 BowlingGame.java 816 6 4 0
 EditAction 1497013189256 BowlingGame.java 797 6 4 0
+RefactoringAction 1497013241550 TestBowling.java ADD void test_f FIELD
+RefactoringAction 1497013243060 TestBowling.java RENAME test_f=>void test_frames() METHOD
+EditAction 1497013309150 TestBowling.java 2075 10 35 6

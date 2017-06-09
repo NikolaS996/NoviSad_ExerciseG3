@@ -81,6 +81,24 @@ public class TestBowling {
 		
 	}
 	
+	@Test
+	public void test_frames() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		
+		game.addFrame(new Frame(5,4));
+		game.addFrame(new Frame(5,3));
+		game.addFrame(new Frame(5,2));
+		game.addFrame(new Frame(5,1));
+		game.addFrame(new Frame(3,4));
+		game.addFrame(new Frame(2,4));
+		game.addFrame(new Frame(1,4));
+		game.addFrame(new Frame(4,4));
+		game.addFrame(new Frame(0,9));
+		game.addFrame(new Frame(1,6));
+		game.addFrame(new Frame(2,3));
+		
+	}
+	
 		
 
 }
