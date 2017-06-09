@@ -225,3 +225,6 @@ UnitTestSessionAction 1497014999777 Rerun TestBowling.test_game_score_with_strik
 UnitTestCaseAction 1497015023098 TestBowling.java FAIL
 UnitTestSessionAction 1497015023098 TestBowling.java FAIL
 EditAction 1497015108253 BowlingGame.java 1330 6 8 0
+CompilationAction 1497015111128 BowlingGame.java
+CompilationAction 1497015112550 BowlingGame.java
+EditAction 1497015130065 BowlingGame.java 1358 6 8 0
