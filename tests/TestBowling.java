@@ -22,6 +22,11 @@ public class TestBowling {
 		assertEquals(result, frame.isSpare());
 	}
 	
+	@Test
+	public void test_spare() throws BowlingException{
+		Frame frame = new Frame(3,9);
+		
+	}
 	
 	@Test
 	public void test_strike_true() throws BowlingException{
@@ -41,6 +46,11 @@ public class TestBowling {
 		assertEquals(result, frame.isStrike());
 	}
 	
+	@Test
+	public void test_strike() throws BowlingException{
+		Frame frame = new Frame(8, 3);
+		
+	}
 	
 	@Test
 	public void test_score() throws BowlingException{
@@ -52,7 +62,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_score_invalid() throws BowlingException{
+	public void test_invalid_frame() throws BowlingException{
 		Frame frame = new Frame(5, 6);
 		
 	}
