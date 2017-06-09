@@ -5,7 +5,7 @@ import org.junit.Test;
 public class TestBowling {
 
 	@Test
-	public void test_spare_true() {
+	public void test_spare_true() throws BowlingException{
 		Frame frame = new Frame(6,4);
 		
 		boolean result = true;
@@ -14,7 +14,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_spare_false(){
+	public void test_spare_false() throws BowlingException{
 		Frame frame = new Frame(3,5);
 		
 		boolean result = false;

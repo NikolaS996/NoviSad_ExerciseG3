@@ -29,6 +29,9 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare() throws BowlingException{
+		if(firstThrow + secondThrow > 10){
+			throw new BowlingException();
+		}
 		if(firstThrow + secondThrow == 10)
 			return true;
 		else
