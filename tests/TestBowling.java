@@ -74,6 +74,10 @@ public class TestBowling {
 		game.addFrame(new Frame (5,5));
 		game.addFrame(new Frame (5,4));
 		
+		int bonus = 15;
+		
+		assertEquals(bonus, game.bonus);
+		
 		
 	}
 	
