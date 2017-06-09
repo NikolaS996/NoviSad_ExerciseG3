@@ -102,3 +102,13 @@ CompilationAction 1497012369939 TestBowling.java
 UnitTestCaseAction 1497012376625 TestBowling.java FAIL
 UnitTestSessionAction 1497012376627 TestBowling.java FAIL
 EditAction 1497012397541 Frame.java 1087 6 11 0
+CompilationAction 1497012399538 Frame.java
+CompilationAction 1497012406394 Frame.java
+RefactoringAction 1497012421159 TestBowling.java REMOVE test_spare() METHOD
+RefactoringAction 1497012427177 TestBowling.java REMOVE test_strike() METHOD
+RefactoringAction 1497012428694 TestBowling.java REMOVE test_invalid_frame() METHOD
+UnitTestCaseAction 1497012435431 TestBowling.java OK
+UnitTestSessionAction 1497012435432 TestBowling.java OK
+RefactoringAction 1497012451228 TestBowling.java ADD void test_score()/2 METHOD
+RefactoringAction 1497012457748 TestBowling.java RENAME test_score()/2=>void test_score_invalid() METHOD
+EditAction 1497012464180 TestBowling.java 1115 6 16 5
