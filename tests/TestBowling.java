@@ -66,5 +66,12 @@ public class TestBowling {
 		Frame frame = new Frame(5, 6);
 		
 	}
+	
+	@Test
+	public void test_bonus(){
+		BowlingGame game = new BowlingGame();
+		
+		
+	}
 
 }

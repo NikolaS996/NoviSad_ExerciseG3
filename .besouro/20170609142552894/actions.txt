@@ -118,3 +118,9 @@ RefactoringAction 1497012482300 TestBowling.java ADD void test_spare() METHOD
 RefactoringAction 1497012482302 TestBowling.java ADD void test_strike() METHOD
 RefactoringAction 1497012482304 TestBowling.java ADD void test_invalid_frame() METHOD
 EditAction 1497012484680 TestBowling.java 1319 8 18 5
+UnitTestCaseAction 1497012491128 TestBowling.java FAIL
+UnitTestSessionAction 1497012491129 TestBowling.java FAIL
+RefactoringAction 1497012552432 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1497012576969 TestBowling.java RENAME test_=>void test_bonus FIELD
+RefactoringAction 1497012579482 TestBowling.java RENAME test_bonus=>void test_bonus() METHOD
+EditAction 1497012605818 TestBowling.java 1411 9 19 5
