@@ -114,6 +114,47 @@ public class TestBowling {
 		
 	}
 	
+	@Test
+	public void test_third_frame_if_spare() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		
+		game.addFrame(new Frame(10, 0));//17
+		game.addFrame(new Frame(5, 2)); //7
+		game.addFrame(new Frame(10, 0));//17
+		game.addFrame(new Frame(5, 2));	//7
+		game.addFrame(new Frame(10, 0));//17
+		game.addFrame(new Frame(5, 2)); //7
+		game.addFrame(new Frame(10, 0));//17
+		game.addFrame(new Frame(5, 2)); //7
+		game.addFrame(new Frame(5, 3)); //8
+		game.addFrame(new Frame(7, 3)); //14
+		game.addFrame(new Frame(4, 2)); //8 
+		
+		int score = 116;
+		
+		assertEquals(score, game.score());
+	}
+	
+	@Test(expected = BowlingException.class)
+	public void test_third_frame_if_stirke() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		
+		game.addFrame(new Frame(10, 0));//17
+		game.addFrame(new Frame(5, 2)); //7
+		game.addFrame(new Frame(10, 0));//17
+		game.addFrame(new Frame(5, 2));	//7
+		game.addFrame(new Frame(10, 0));//17
+		game.addFrame(new Frame(5, 2)); //7
+		game.addFrame(new Frame(10, 0));//17
+		game.addFrame(new Frame(5, 2)); //7
+		game.addFrame(new Frame(5, 3)); //8
+		game.addFrame(new Frame(7, 3)); //14
+		game.addFrame(new Frame(4, 2)); //8 
+		
+		int score = 116;
+		
+		assertEquals(score, game.score());
+	
 		
 
 }

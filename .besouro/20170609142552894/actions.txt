@@ -248,3 +248,22 @@ EditAction 1497015586574 BowlingGame.java 1591 6 9 0
 CompilationAction 1497015588746 BowlingGame.java
 CompilationAction 1497015588762 BowlingGame.java
 EditAction 1497015593621 BowlingGame.java 1593 6 9 0
+CompilationAction 1497015595590 BowlingGame.java
+CompilationAction 1497015610183 BowlingGame.java
+CompilationAction 1497015610402 BowlingGame.java
+RefactoringAction 1497015621402 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1497015625465 TestBowling.java RENAME test_=>void test_third FIELD
+RefactoringAction 1497015627996 TestBowling.java RENAME test_third=>void test_third_ FIELD
+RefactoringAction 1497015636121 TestBowling.java RENAME test_third_=>void test_third_frame FIELD
+RefactoringAction 1497015642777 TestBowling.java RENAME test_third_frame=>void test_third_frame_if_stirke() METHOD
+CompilationAction 1497015671980 TestBowling.java
+CompilationAction 1497015683230 TestBowling.java
+CompilationAction 1497015746729 TestBowling.java
+CompilationAction 1497015791812 TestBowling.java
+CompilationAction 1497015806999 BowlingGame.java
+UnitTestCaseAction 1497015811396 TestBowling.java FAIL
+UnitTestSessionAction 1497015811396 TestBowling.java FAIL
+RefactoringAction 1497015825755 TestBowling.java ADD void test_third_frame_if_stirke()/2 METHOD
+RefactoringAction 1497015842068 TestBowling.java RENAME test_third_frame_if_stirke()/2=>void test_third_frame_if_spare() METHOD
+CompilationAction 1497015842302 TestBowling.java
+EditAction 1497015875583 BowlingGame.java 1594 6 10 0
