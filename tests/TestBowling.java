@@ -86,6 +86,14 @@ public class TestBowling {
 		
 	}
 	
+	@Test
+	public void test_game_score(){
+		Bowling game = new BowlingGame();
+		
+		game.addFrame(new Frame(6, 4));
+		game.addFrame(new Frame(5, 2));
+	}
+	
 		
 
 }
