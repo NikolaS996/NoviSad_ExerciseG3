@@ -51,5 +51,14 @@ public class TestBowling {
 		Frame frame = new Frame(8, 3);
 		
 	}
+	
+	@Test
+	public void test_initial_score() throws BowlingException{
+		Frame frame = new Frame(5, 3);
+		
+		int score = 8;
+		
+		assertEquals(score, frame.score());
+	}
 
 }
