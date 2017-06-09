@@ -67,19 +67,6 @@ public class TestBowling {
 		
 	}
 	
-	@Test
-	public void test_bonus() throws BowlingException{
-		BowlingGame game = new BowlingGame();
-		
-		game.addFrame(new Frame (5,5));
-		game.addFrame(new Frame (5,4));
-		
-		int bonus = 15;
-		
-		assertEquals(bonus, game.getBonus());
-		
-		
-	}
 	
 	@Test(expected = BowlingException.class)
 	public void test_frames() throws BowlingException{

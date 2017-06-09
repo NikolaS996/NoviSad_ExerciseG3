@@ -176,3 +176,4 @@ RefactoringAction 1497014009322 Frame.java ADD void setFirstThrow() METHOD
 RefactoringAction 1497014016354 Frame.java RENAME setFirstThrow()=>void setFirstThrow(int) METHOD
 RefactoringAction 1497014033887 Frame.java ADD void setSecondThrow(int) METHOD
 EditAction 1497014036268 Frame.java 1331 8 16 0
+EditAction 1497014114550 TestBowling.java 1960 9 30 5
