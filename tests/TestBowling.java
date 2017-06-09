@@ -107,7 +107,7 @@ public class TestBowling {
 		game.addFrame(new Frame(10, 0));
 		game.addFrame(new Frame(5, 2));
 		
-		int score = 22;
+		int score = 24;
 		
 		assertEquals(score, game.score());
 		
