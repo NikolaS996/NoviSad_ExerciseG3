@@ -32,8 +32,6 @@ public class BowlingGame {
 		Frame tmp = new Frame(0,0);
 		for(Frame frame : frames){
 			
-			
-			
 			finalScore = finalScore + frame.score();
 			
 			if(tmp.isStrike())
