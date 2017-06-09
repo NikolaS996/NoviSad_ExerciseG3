@@ -32,19 +32,20 @@ public class BowlingGame {
 		
 		Frame tmp = new Frame(0,0);
 		
-		for(Frame frame : frames){
+		//for(Frame frame : frames){
+		for(int i = 0 ; i < frames.size() ; i++){
 			
-			finalScore = finalScore + frame.score();
+			finalScore = finalScore + frames.get(i).score();
 			
 			if(tmp.isStrike())
-				this.setBonus(frame.getFirstThrow(),frame.getSecondThrow());
+				this.setBonus(frames.get(i).getFirstThrow(),frames.get(i).getSecondThrow());
 			else if(tmp.isSpare())
-				this.setBonus(frame.getFirstThrow(), 0);
+				this.setBonus(frames.get(i).getFirstThrow(), 0);
 			
 			finalScore = finalScore + bonus.score();
 			
 			this.setBonus(0, 0);
-			tmp = frame;
+			tmp = frames.get(i);
 		}
 		
 		return finalScore;
