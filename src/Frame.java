@@ -23,6 +23,9 @@ public class Frame {
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
+		if(firstThrow + secondThrow > 10)
+			throw new BowlingException();
+		
 		if(firstThrow == 10 && secondThrow == 0)
 			return true;
 		return false;
