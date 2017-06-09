@@ -34,7 +34,7 @@ public class BowlingGame {
 			Frame tmp = new Frame(0,0);
 			tmp = frame;
 			
-			finalScore = finalScore + tmp.score();
+			finalScore = finalScore + frame.score();
 			
 			if(tmp.isStrike())
 				this.setBonus(frame.getFirstThrow(),frame.getSecondThrow());
