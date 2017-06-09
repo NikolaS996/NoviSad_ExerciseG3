@@ -17,9 +17,15 @@ public class TestBowling {
 	public void test_spare_false(){
 		Frame frame = new Frame(3,5);
 		
-		bolean result = false;
+		boolean result = false;
 		
 		assertEquals(result, frame.isSpare());
+	}
+	
+	@Test
+	public void test_spare() throws BowlingException{
+		Frame frame = new Frame(3,9);
+		
 	}
 
 }
