@@ -27,5 +27,14 @@ public class TestBowling {
 		Frame frame = new Frame(3,9);
 		
 	}
+	
+	@Test
+	public void test_strike_true() throws BowlingException{
+		Frame frame = new Frame(10, 0);
+		
+		boolean result = true;
+		
+		assertEquals(result, frame.isStrike());
+	}
 
 }

@@ -39,3 +39,8 @@ EditAction 1497011639145 Frame.java 813 6 8 0
 EditAction 1497011652806 Frame.java 811 6 8 0
 RefactoringAction 1497011665173 BowlingException.java ADD BowlingException() METHOD
 EditAction 1497011668030 BowlingException.java 101 1 1 0
+UnitTestCaseAction 1497011675100 TestBowling.java OK
+UnitTestSessionAction 1497011675103 TestBowling.java OK
+RefactoringAction 1497011686789 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1497011696306 TestBowling.java RENAME test_=>void test_strike_true() METHOD
+EditAction 1497011719625 TestBowling.java 748 4 10 3
