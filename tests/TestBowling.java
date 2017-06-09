@@ -87,7 +87,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_game_score() throws BowlingException{
+	public void test_game_score_with_spare() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		
 		game.addFrame(new Frame(6, 4));
