@@ -44,3 +44,6 @@ UnitTestSessionAction 1497011675103 TestBowling.java OK
 RefactoringAction 1497011686789 TestBowling.java ADD void test_ FIELD
 RefactoringAction 1497011696306 TestBowling.java RENAME test_=>void test_strike_true() METHOD
 EditAction 1497011719625 TestBowling.java 748 4 10 3
+UnitTestCaseAction 1497011726343 TestBowling.java FAIL
+UnitTestSessionAction 1497011726345 TestBowling.java FAIL
+EditAction 1497011751849 Frame.java 844 6 10 0
