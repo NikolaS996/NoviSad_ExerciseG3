@@ -22,7 +22,9 @@ public class Frame {
 	public int score(){
 		int score = 0;
 		
-		score = firstThrow + secondThrow;
+		if(firstThrow + secondThrow <= 10)
+			score = firstThrow + secondThrow;
+		else throw new BowlingException();
 		
 		return score;
 	}
