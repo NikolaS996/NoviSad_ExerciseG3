@@ -17,6 +17,14 @@ public class Frame {
 	public int getSecondThrow() {
 		return secondThrow;
 	}
+	
+	public void setFirstThrow(int first){
+		firstThrow = first;
+	}
+	
+	public void setSecondThrow(int second){
+		secondThrow = second;
+	}
 
 	//returns the score of a single frame
 	public int score() throws BowlingException{
