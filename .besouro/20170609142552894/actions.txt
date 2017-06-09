@@ -62,3 +62,4 @@ RefactoringAction 1497011857121 TestBowling.java ADD void test_strike_false()/2 
 RefactoringAction 1497011891180 TestBowling.java RENAME test_strike_false()/2=>void test() METHOD
 RefactoringAction 1497011892693 TestBowling.java RENAME test()=>void test_strike() METHOD
 EditAction 1497011898881 TestBowling.java 1036 6 14 4
+EditAction 1497011901610 TestBowling.java 1040 6 14 4

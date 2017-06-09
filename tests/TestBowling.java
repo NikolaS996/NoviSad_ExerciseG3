@@ -49,6 +49,7 @@ public class TestBowling {
 	@Test
 	public void test_strike() throws BowlingException{
 		Frame frame = new Frame(8, 3);
+		
 	}
 
 }
