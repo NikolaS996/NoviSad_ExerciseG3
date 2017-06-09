@@ -5,3 +5,4 @@ FileOpenedAction 1497011238137 BowlingException.java 58 0 0 0
 RefactoringAction 1497011261251 TestBowling.java RENAME test()=>void test_() METHOD
 RefactoringAction 1497011263277 TestBowling.java RENAME test_()=>void test_spare() METHOD
 EditAction 1497011298185 TestBowling.java 172 1 1 0
+EditAction 1497011371512 TestBowling.java 247 1 3 0
