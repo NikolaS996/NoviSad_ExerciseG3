@@ -89,3 +89,4 @@ RefactoringAction 1497012213799 TestBowling.java RENAME test_score_invalid()=>vo
 RefactoringAction 1497012216309 TestBowling.java RENAME test_frame_invalid()=>void test_frame_valid() METHOD
 EditAction 1497012227691 TestBowling.java 1319 8 18 5
 EditAction 1497012235084 Frame.java 987 6 13 0
+EditAction 1497012254984 Frame.java 1086 6 14 0
